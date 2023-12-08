@@ -2,7 +2,23 @@
 
 let homeScoreEl = document.getElementById("homescore-el")
 let guestScoreEl = document.getElementById("guestscore-el")
+let resetCount = 0
 
+
+
+
+// RESET
+
+function reset() {
+    
+    homeScoreEl.textContent = resetCount
+    guestScoreEl.textContent = resetCount    
+    
+    
+}
+
+
+// GUEST
 
 function guestScoreOne() {
     
@@ -23,7 +39,7 @@ function guestScoreThree() {
 }
 
 
-/// home
+// HOME
 
 
 function homeScoreOne() {
@@ -43,3 +59,4 @@ function homeScoreThree() {
         homeScoreEl.textContent = parseInt(homeScoreEl.textContent) + 3;
     
 }
+

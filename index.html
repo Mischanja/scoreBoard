@@ -6,7 +6,7 @@
     </head>
     <body id='scoreBoard'>
         <div class="background">
-            <div class='score-container'>
+            <div class='score-container-home'>
                 <h3>HOME</h3>
                 <div class="score-item">     
                     <p id="homescore-el"class="score-el">0</p>          
@@ -21,7 +21,12 @@
                 </div>
            
             </div>
-            <div class='score-container'>
+            <div class='score-container-guest'>
+                
+                 <div id="reset-btn-container"> 
+                    <img id="reset-btn" src='assets/icon.png' onclick="reset()">
+                </div>
+        
                 <h3>GUEST</h3>
                 <div class="score-item">     
                     <p id="guestscore-el" class="score-el">0</p>          
@@ -34,7 +39,10 @@
                     <button class='score-button' onclick="guestScoreThree()">+3</button>
                     
                 </div>
+                
+               
         </div>
+       
         <script src="index.js"></script>
     </body>
 </html>

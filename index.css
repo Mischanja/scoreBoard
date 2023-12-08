@@ -25,12 +25,23 @@ h3 {
 }
 
 
-.score-container{
+.score-container-home{
     
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    
+}
+
+
+.score-container-guest{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
     
 }
 
@@ -73,4 +84,24 @@ h3 {
     font-family: 'Cursed Timer ULiL', sans-serif;
     margin-right: 2px;
     margin-left: 2px;
+}
+
+
+#reset-btn-container {
+    
+    
+align-self: flex-end;
+position: absolute;
+margin-top: -352px;
+margin-left: auto;
+    
+    
+}
+
+
+#reset-btn {
+    
+    height: 30px;
+    width: 30px;      
+    
 }
